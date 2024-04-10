@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+    
+}
+
+.container {
+    width: 1080px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(74, 176, 217);
+    margin: 100px 40px;
+    padding: 40px;
+    border: 1px solid black;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}

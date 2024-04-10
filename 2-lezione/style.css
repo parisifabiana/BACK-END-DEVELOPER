@@ -1,0 +1,69 @@
+body {
+    background-color: #e84ae8;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h1 {
+    color:aqua;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color:aqua;
+}
+
+a:visited,
+a:link {
+    color:rgb(237, 245, 87);
+}
+
+a:hover {
+    color: pink;
+}
+
+.terzo-paragrafo {
+    font-size: 28px;
+    color:blueviolet;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul li {
+    color: blueviolet;
+    font-style: italic;
+    font-family: "Montserrat", sans-serif;
+}
+
+#titolo {
+    color:rgb(237, 245, 87);
+    font-size: 88px;
+}
+/* cifre esadecimale 
+
+cifre da 0 a 9
+#000000 NERO assenza di colore
+#ffffff BIANCO 
+lettere dalla A alla F
+
+un colore esadecimale è rappresentato da 6 cifre,
+le prime due rappresentano il rosso, le altre due il verde e poi il blu
+
+sistema di colore RGB
+
+il rosso ha 256 possibili combinazioni, ovvero 2^8, da 0 a 255
+il verde ha 256 possibili combinazioni, ovvero 2^8, da 0 a 255
+il blu ha 256 possibili combinazioni, ovvero 2^8, da 0 a 255
+
+
+*/
