@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+
+#navbar {
+    background-color: #2C3E50;
+    padding: 30px;
+}
+
+#navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.navbar-nav a {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+
+a.nav-link:hover {
+    color: #1ABC9C !important;
+}
+
+/* masthead */
+.masthead {
+    background-color: #1ABC9C;
+}
+.masthead-img {
+    width: 240px;
+}
+
+.star::before,
+.star::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    display: inline-block;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+
+.star i {
+    font-size: 30px;
+    vertical-align: middle;
+}
